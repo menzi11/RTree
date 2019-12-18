@@ -473,7 +473,7 @@ RTREE_QUAL::RTree()
 RTREE_TEMPLATE
 RTREE_QUAL::RTree(const RTree& other) : RTree()
 {
-	CopyRec(m_root, other.m_root);
+    CopyRec(m_root, other.m_root);
 }
 
 
