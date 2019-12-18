@@ -12,7 +12,9 @@
 #include <algorithm>
 #include <functional>
 
-#define ASSERT assert // RTree uses ASSERT( condition )
+#ifndef ASSERT
+  #define ASSERT assert // RTree uses ASSERT( condition )
+#endif
 #ifndef Min
   #define Min std::min
 #endif //Min
