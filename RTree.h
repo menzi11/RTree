@@ -1,5 +1,4 @@
-#ifndef RTREE_H
-#define RTREE_H
+﻿#pragma once
 
 // NOTE This file compiles under MSVC 6 SP5 and MSVC .Net 2003 it may not work on other compilers without modification.
 
@@ -1649,6 +1648,3 @@ bool RTREE_QUAL::Search(Node* a_node, Rect* a_rect, int& a_foundCount, std::func
 
 #undef RTREE_TEMPLATE
 #undef RTREE_QUAL
-
-#endif //RTREE_H
-
